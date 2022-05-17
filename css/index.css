@@ -2,11 +2,15 @@
     font-family: 'Essence';
     src: url('fonts/ar-essence.ttf') format('ttf');
   } */
-     /* .logo {
+     
+     .logo {
       margin: 0;
       padding: 0;
-  } */
-  header nav .logo h1 {
-      font-size: 9px;
-      text-align: center;
   }
+  header #head {
+      display: flex;
+      flex-direction: row;
+      display: grid;
+       grid-template-columns: 2fr 8fr;
+  }
+  
