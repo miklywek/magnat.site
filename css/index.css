@@ -1,0 +1,11 @@
+/* @font-face {
+    font-family: 'Essence';
+    src: url('fonts/ar-essence.ttf') format('ttf');
+  } */
+     /* .logo {
+      margin: 0;
+      padding: 0;
+  } */
+  header nav .logo h1 {
+      font-size: 83 rem;
+  }
