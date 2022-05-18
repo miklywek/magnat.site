@@ -3,14 +3,16 @@
     src: url('fonts/ar-essence.ttf') format('ttf');
   } */
      
+
      .logo {
       margin: 0;
       padding: 0;
   }
   header #head {
-      display: flex;
-      flex-direction: row;
-      display: grid;
-       grid-template-columns: 2fr 8fr;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    background-color: red;
   }
   
