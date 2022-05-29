@@ -68,26 +68,66 @@ html, body {
     text-align: center;
     border-radius: 8%;
   }
-  .teras1{
-    border-radius: 8%;
-  }
- main #servise h1{
+  
+ main #servise .services__title{
     text-align: center;
     font-size: 30px;
+    padding: 70px;
   }
-
-  main #servise .article {
+  #servise .article{
     display: flex;
-
   }
+  #servise .article-text{
+    flex-basis: 50%;
+    padding: 50px;
+    line-height: 40px;
+    justify-content: center;
+  }
+  #servise .article-text p {
+    text-align: 20px;
+  }
+  main #servise .article-photo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: center;
+    }
   main #servise .article-photo img {
+    max-width: 220px;
+    max-height: 135px;
     width: 405;
     height: 270;
-    flex-wrap: wrap;
-flex-direction:column;
-
+    padding: 2px;
+    width: 220px;
+    height: 130px;
+  }
+  #rooms .rooms{
+    padding: 50px 0;
   }
 
-  main #servise .article-text {
+  #rooms .rooms__text h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+  }
+  #rooms .rooms__container{
+    display: flex;
+    padding: 50px;
+  } 
+  #rooms .rooms__text{
+    font-size: 20px;
+    line-height: 50px;
+    flex-basis: 50%;
+  }
+  #rooms .rooms_photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: center;
+  }
+  #rooms .rooms_photos img{
+    max-width: 220px;
+    max-height: 135px;
+    padding: 5px;
 
   }
