@@ -118,6 +118,7 @@ html, body {
     font-size: 20px;
     line-height: 50px;
     flex-basis: 50%;
+    
   }
   #rooms .rooms_photos {
     display: flex;
@@ -129,5 +130,49 @@ html, body {
     max-width: 220px;
     max-height: 135px;
     padding: 5px;
+  }
+  #contact  h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0;
+  }
+  #contact .contact{
+    display: flex;
+    padding: 30px;
+  }
+  #contact .contact .contact__text{
+    flex-basis: 50%;
+    text-align: center;
+    line-height: 35px;
+    /* display:flex; */
+    /* align-items:center; */
+  }
+  #contact .google-map{
+    width: 550px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+  }
+  footer{
+    padding: 10px 30px;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
 
+  }
+  .footer__text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__socia {
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 50%;
+  }
+  .footer__insta img {
+    width: 48px;
   }
